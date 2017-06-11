@@ -1,4 +1,4 @@
-Macaron-authz [![GoDoc](https://godoc.org/github.com/casbin/chi-authz?status.svg)](https://godoc.org/github.com/casbin/chi-authz)
+Macaron-authz [![Build Status](https://travis-ci.org/casbin/macaron-authz.svg?branch=master)](https://travis-ci.org/casbin/macaron-authz) [![Coverage Status](https://coveralls.io/repos/github/casbin/macaron-authz/badge.svg?branch=master)](https://coveralls.io/github/casbin/macaron-authz?branch=master) [![GoDoc](https://godoc.org/github.com/casbin/chi-authz?status.svg)](https://godoc.org/github.com/casbin/chi-authz)
 ======
 
 Macaron-authz is an authorization middleware for [Macaron](https://github.com/go-macaron/macaron), it's based on [https://github.com/casbin/casbin](https://github.com/casbin/casbin).
