@@ -1,11 +1,11 @@
-Macaron-authz [![Build Status](https://travis-ci.org/casbin/macaron-authz.svg?branch=master)](https://travis-ci.org/casbin/macaron-authz) [![Coverage Status](https://coveralls.io/repos/github/casbin/macaron-authz/badge.svg?branch=master)](https://coveralls.io/github/casbin/macaron-authz?branch=master) [![GoDoc](https://godoc.org/github.com/casbin/chi-authz?status.svg)](https://godoc.org/github.com/casbin/chi-authz)
+Macaron-authz [![Build Status](https://travis-ci.org/go-macaron/authz.svg?branch=master)](https://travis-ci.org/go-macaron/authz) [![Coverage Status](https://coveralls.io/repos/github/go-macaron/authz/badge.svg?branch=master)](https://coveralls.io/github/go-macaron/authz?branch=master) [![GoDoc](https://godoc.org/github.com/go-macaron/authz?status.svg)](https://godoc.org/github.com/go-macaron/authz)
 ======
 
 Macaron-authz is an authorization middleware for [Macaron](https://github.com/go-macaron/macaron), it's based on [https://github.com/casbin/casbin](https://github.com/casbin/casbin).
 
 ## Installation
 
-    go get github.com/casbin/macaron-authz
+    go get github.com/go-macaron/authz
 
 ## Simple Example
 
@@ -16,7 +16,7 @@ import (
 	"net/http"
 
 	"github.com/casbin/casbin"
-	"github.com/casbin/macaron-authz"
+	"github.com/go-macaron/authz"
 	"gopkg.in/macaron.v1"
 )
 
